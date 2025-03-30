@@ -26,13 +26,21 @@
         android:lineSpacingExtra="8dp"
         android:textSize="16sp"/>
 
+<!--    <Button-->
+<!--        android:id="@+id/btnDone"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="DONE"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="25dp"-->
+<!--        android:backgroundTint="@color/pink"-->
+<!--        android:layout_marginTop="32dp"/>-->
+
     <Button
-        android:id="@+id/btnDone"
+        android:id="@+id/btnChat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="DONE"
-        android:textColor="@color/black"
-        android:textSize="25dp"
+        android:text="Go to Chat"
         android:backgroundTint="@color/pink"
-        android:layout_marginTop="32dp"/>
+        android:textColor="@android:color/black"/>
 </LinearLayout>

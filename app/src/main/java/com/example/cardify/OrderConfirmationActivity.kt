@@ -25,9 +25,8 @@ class OrderConfirmationActivity : AppCompatActivity() {
 
         findViewById<TextView>(R.id.tvConfirmationDetails).text = details
 
-        findViewById<Button>(R.id.btnDone).setOnClickListener {
-            finishAffinity() // Close all activities
-            startActivity(Intent(this, MainActivity::class.java))
+        findViewById<Button>(R.id.btnChat).setOnClickListener {
+            startActivity(Intent(this, ChatActivity::class.java))
         }
     }
 }
