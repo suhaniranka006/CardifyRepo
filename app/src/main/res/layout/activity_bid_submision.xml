@@ -29,7 +29,7 @@
             android:id="@+id/etBidAmount"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Your Price (₹)"
+            android:hint="Your Price (₹) (per card)"
             android:inputType="numberDecimal"
             android:layout_marginBottom="16dp"/>
 
