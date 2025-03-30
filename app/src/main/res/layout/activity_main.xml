@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="@drawable/cardifybackground"
     android:padding="16dp">
 
     <Button
@@ -11,11 +12,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Couple Login"
+        android:textSize="25dp"
+        android:backgroundTint="#EDBFCF"
+        android:textColor="@color/black"
         android:layout_marginBottom="16dp"/>
 
     <Button
         android:id="@+id/btnVendorLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="#EDBFCF"
+        android:textColor="@color/black"
+        android:textSize="25dp"
         android:text="Vendor Login"/>
 </LinearLayout>

@@ -3,6 +3,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="24dp"
+    android:background="@drawable/cardifybackground"
     android:gravity="center">
 
     <ImageView
@@ -30,5 +31,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="DONE"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:backgroundTint="@color/pink"
         android:layout_marginTop="32dp"/>
 </LinearLayout>

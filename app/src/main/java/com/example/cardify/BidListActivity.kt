@@ -21,9 +21,9 @@ class BidsListActivity : AppCompatActivity() {
 
     private lateinit var adapter: BidAdapter
     private val bids = mutableListOf(
-        Bid("Royal Designs", "₹4500", "7 days", "Peacock-themed with gold foil"),
-        Bid("Minimal Art Co.", "₹3800", "5 days", "Clean modern design"),
-        Bid("Traditional Cards", "₹5200", "10 days", "Hand-painted designs")
+        Bid("Royal Designs", "₹90", "7 days", "Peacock-themed with gold foil"),
+        Bid("Minimal Art Co.", "₹80", "5 days", "Clean modern design"),
+        Bid("Traditional Cards", "₹70", "10 days", "Hand-painted designs")
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -1,6 +1,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/cardifybackground"
     android:padding="16dp">
 
     <LinearLayout
@@ -11,6 +12,7 @@
         <!-- Vendor Details -->
         <EditText
             android:id="@+id/etVendorName"
+            android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Your Full Name"
@@ -44,6 +46,9 @@
         <Button
             android:id="@+id/btnAddImage"
             android:layout_width="match_parent"
+            android:backgroundTint="@color/pink"
+            android:textSize="25dp"
+            android:textColor="@color/black"
             android:layout_height="wrap_content"
             android:text="+ Add Image"
             android:layout_marginBottom="24dp"/>
@@ -52,6 +57,9 @@
             android:id="@+id/btnSubmitVendor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/pink"
+            android:textSize="25dp"
+            android:textColor="@color/black"
             android:text="Complete Registration"/>
     </LinearLayout>
 </ScrollView>

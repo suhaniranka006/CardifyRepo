@@ -3,14 +3,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/cardifybackground"
+
     android:padding="16dp">
 
     <TextView
         android:id="@+id/tvRequirementDetails"
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
-        android:textSize="16sp"/>
+        android:textSize="20dp"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -31,6 +34,9 @@
         android:id="@+id/btnSelectBid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/pink"
+        android:textColor="@color/black"
+        android:textSize="25dp"
         android:text="SELECT THIS BID"
         android:layout_marginTop="16dp"/>
 </LinearLayout>
