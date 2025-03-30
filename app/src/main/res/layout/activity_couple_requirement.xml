@@ -37,41 +37,42 @@
 
 
 
-        <!-- Add this BELOW your existing fields (name, deadline, etc.) -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginTop="16dp">
+<!--        &lt;!&ndash; Add this BELOW your existing fields (name, deadline, etc.) &ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_marginTop="16dp">-->
 
-            <!-- Optional Image Section -->
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Upload Sample Card Image (Optional)"
-                android:textStyle="bold"/>
+<!--            &lt;!&ndash; Optional Image Section &ndash;&gt;-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Upload Sample Card Image (Optional)"-->
+<!--                android:textStyle="bold"/>-->
 
-            <ImageView
-                android:id="@+id/ivCardSample"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_marginTop="8dp"
-                android:background="#F5F5F5"
-                android:src="@drawable/baseline_add_a_photo_24"/>
+<!--            <ImageView-->
+<!--                android:id="@+id/ivCardSample"-->
+<!--                android:layout_width="40dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:background="#F5F5F5"-->
+<!--                android:src="@drawable/baseline_add_a_photo_24"/>-->
 
 
 
-            <Button
-                android:id="@+id/btnAddImage"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:backgroundTint="@color/pink"
-                android:textColor="@color/black"
-                android:textSize="20dp"
-                android:text="Select Image"/>
-        </LinearLayout>
+<!--            <Button-->
+<!--                android:id="@+id/btnAddImage"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:backgroundTint="@color/pink"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="20dp"-->
+<!--                android:text="Select Image"/>-->
+<!--        </LinearLayout>-->
 
+<!--    -->
         <EditText
             android:id="@+id/etRequirements"
             android:layout_width="match_parent"

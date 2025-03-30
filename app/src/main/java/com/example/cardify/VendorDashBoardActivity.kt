@@ -14,9 +14,9 @@ import androidx.core.view.WindowInsetsCompat
 class VendorDashboardActivity : AppCompatActivity() {
 
     private val activeBids = listOf(
-        "Wedding Card - Budget: ₹500 - Deadline: 15 Dec",
-        "Birthday Card - Budget: ₹90 - Deadline: 10 Dec",
-        "Anniversary Card - Budget: ₹200 - Deadline: 20 Dec"
+        "peacock themed Wedding Card - Budget: ₹500 - Deadline: 15 Dec",
+        "punjabi Cards - Budget: ₹90 - Deadline: 10 Dec",
+        "South Indian Cards - Budget: ₹200 - Deadline: 20 Dec"
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
