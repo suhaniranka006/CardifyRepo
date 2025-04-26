@@ -14,9 +14,10 @@
         <EditText
             android:id="@+id/etName"
             android:layout_width="match_parent"
-
+            android:textColor="@color/black"
             android:layout_height="wrap_content"
             android:hint="Your Name"
+            android:textColorHint="@color/black"
             android:layout_marginBottom="16dp"/>
 
         <EditText
