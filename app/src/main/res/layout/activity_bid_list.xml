@@ -31,6 +31,7 @@
         android:id="@+id/btnSelectBid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SELECT THIS BID"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="16dp"
+        android:background="@color/brown"
+        android:text="SELECT THIS BID" />
 </LinearLayout>

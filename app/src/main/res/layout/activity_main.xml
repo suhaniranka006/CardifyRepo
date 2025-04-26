@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="@drawable/wedding_card_background_2"
     android:gravity="center"
+    android:orientation="vertical"
     android:padding="16dp">
 
     <Button
         android:id="@+id/btnCoupleLogin"
-        android:layout_width="match_parent"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/brown"
         android:text="Couple Login"
-        android:layout_marginBottom="16dp"/>
+        android:textColor="@color/cream" />
 
     <Button
         android:id="@+id/btnVendorLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Vendor Login"/>
+        android:backgroundTint="@color/brown"
+        android:text="Vendor Login"
+        android:textColor="@color/cream" />
 </LinearLayout>
